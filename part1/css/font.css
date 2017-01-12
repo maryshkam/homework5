@@ -1,0 +1,7 @@
+/* font-family: "Helvetica Neou"; */
+@font-face {
+    font-family: 'Helvetica Neue Extended', sans-serif;;
+    src: url("fonts/Helvetica Neue Extended/HelveticaNeue-Extended.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

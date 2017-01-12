@@ -1,0 +1,256 @@
+body {
+    height: 1065px;
+    background-image: url(../img/fon.jpg);
+    background-size: 100%;
+}
+
+.top {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: #07508f;
+    text-align: center;
+}
+
+.menutop1 li {
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+    line-height: 50px;
+}
+
+.menutop1 li a {
+    color: #60b5ed;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menutop1 li:hover {
+    height: 50px;
+    background: #4eabda;
+}
+
+.menutop1 li a:hover {
+    color: #fff;
+}
+
+.menutop2 li {
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
+    border-left: 1px solid #56a2dc;
+    line-height: 50px;
+}
+
+.menutop2 li a {
+    color: #fff;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menutop2 li:hover {
+    height: 50px;
+    background: #4eabda;
+}
+
+.menutop2 li a:hover {
+    color: #fff;
+}
+
+.menutop3 li {
+    padding-right: 20px;
+    padding-left: 10px;
+    float: right;
+    background-image: url(../img/grad1.jpg);
+    line-height: 50px;
+}
+
+.menutop3 li p {
+    color: #fff;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+    text-align: center;
+}
+
+.menutop3 li a {
+    color: #fff;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.menutop3 li:hover {
+    height: 50px;
+    background-image: url(../img/grad1.jpg);
+}
+
+.menutop3 li a:hover {
+    color: #fff;
+}
+
+.wrapper {
+    width: 560px;
+    height: 610px;
+    margin: 215px auto;
+    background-color: rgba(0, 0, 0, .65);
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.fb {
+    width: 280px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.ou {
+    display: inline-block;
+    width: 282px;
+    margin-top: 20px;
+}
+
+.line {
+    width: 124px;
+    margin: 5px 3px;
+    float: left;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #000;
+}
+
+.ou p {
+    float: left;
+    color: #999;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+}
+
+.forma {
+    margin: 5px auto;
+}
+
+input[type="text"] {
+    width: 280px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 15px;
+    border: 1px solid #000;
+    border-bottom: 1px solid #484948;
+    border-radius: 3px;
+    outline: none;
+    background: #000;
+    color: #fffbfb;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #1b5288;
+    background-color: #1b5288;
+    -moz-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    -webkit-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+}
+
+input[type="email"] {
+    width: 280px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 15px;
+    border: 1px solid #000;
+    border-bottom: 1px solid #484948;
+    border-radius: 3px;
+    outline: none;
+    background: #000;
+    color: #fffbfb;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+}
+
+input[type="email"]:focus {
+    border: 1px solid #1b5288;
+    background-color: #1b5288;
+    -moz-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    -webkit-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+}
+
+input[type="password"] {
+    width: 280px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 15px;
+    border: 1px solid #000;
+    border-bottom: 1px solid #484948;
+    border-radius: 3px;
+    outline: none;
+    background: #000;
+    color: #fffbfb;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+}
+
+input[type="password"]:focus {
+    border: 1px solid #1b5288;
+    background-color: #1b5288;
+    -moz-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    -webkit-box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+    box-shadow: 0 0 12px 3px rgba(153, 187, 247, 1);
+}
+
+.checkbox {
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox p {
+    color: #ccc;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.sub {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    width: 150px;
+    height: 35px;
+    border: 1px solid #3889cb;
+    border-radius: 3px;
+    outline: none;
+    background-image: url(../img/button.jpg);
+    color: #fff;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 14px;
+}
+
+.text {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ccc;
+    font-family: 'Helvetica Neue Extended', Tahoma;
+    font-size: 11px;
+    text-align: center;
+}
